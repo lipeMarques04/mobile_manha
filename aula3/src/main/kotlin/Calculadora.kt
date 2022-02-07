@@ -26,7 +26,9 @@ class Calculadora {
         return sqrt(numero).toFloat()
     }
 
-    fun restoDaDivisao(numero: Float, modulo: Float): Float {
-        return numero % modulo
-    }
+//    fun restoDaDivisao(numero: Float, modulo: Float): Float {
+//        return numero % modulo
+//    }
+
+    fun restoDaDivisao(numero: Float, modulo: Float): Float = numero % modulo
 }
