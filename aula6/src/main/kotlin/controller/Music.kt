@@ -1,12 +1,13 @@
 package controller
 
 import model.Music
+import model.MusicGender
 
 class Music {
      fun musicFactory(
         title :String,
         duration: Short,
-        gender: String,
+        gender: MusicGender,
         yearOfRelease: Short,
         album: String,
         composer: String,

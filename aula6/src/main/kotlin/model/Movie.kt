@@ -29,4 +29,8 @@ class Movie{
         this.director = director
         this.screenwriter = screenwriter
     }
+
+    override fun toString():String{
+        return "Title: ${this.title}, Director: ${this.director}, Year of release: ${this.yearOfRelease}"
+    }
 }
