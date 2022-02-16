@@ -1,6 +1,6 @@
 import java.time.LocalDate
 
-class PessoaFisica(
+open class PessoaFisica(
     var nomeCompleto: String,
     var cpf: String,
     var dataDeNascimento: LocalDate,

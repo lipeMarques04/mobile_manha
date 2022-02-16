@@ -5,7 +5,7 @@ class PessoaJuridica(
     var dataDeFundacao:LocalDate,
     var razaoSocial:String,
     var nomeFantasia: String,
-    // Propriedades da class mãe
+    // Propriedades da classe mãe
     matricula:Short,
     email: String,
     endereco: String,

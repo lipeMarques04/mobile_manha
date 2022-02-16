@@ -26,4 +26,17 @@ fun main(args: Array<String>) {
     )
 
     println(paula.matricula)
+
+    val mauricio = Funcionario(
+        salario = 2000f,
+        nomeCompleto = "Mauricio Silva da Silva",
+        cpf = "000000",
+        rg = "000000",
+        dataDeNascimento = LocalDate.of(1987,12,3),
+        telefone = "8888888",
+        endereco = "Rua A n° 22",
+        email = "mauricio.silva@gmail.com",
+        matricula = 12,
+        cargoHorariaDiaria = 8
+    )
 }
