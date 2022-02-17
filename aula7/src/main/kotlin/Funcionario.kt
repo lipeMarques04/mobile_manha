@@ -22,4 +22,7 @@ class Funcionario(
     dataDeNascimento = dataDeNascimento,
     telefone = telefone
 ) {
+    override fun toString(): String {
+        return "Funcionario(salario=$salario, cargoHorariaDiaria=$cargoHorariaDiaria)"
+    }
 }
